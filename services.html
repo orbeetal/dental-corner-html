@@ -1,0 +1,1025 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Our Services | Dental Corner</title>
+        <meta
+            name="description"
+            content="Explore our comprehensive dental services including orthodontics, implants, root canals, and more."
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="48x48"
+            href="assets/images/favicon-48x48.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            navy: '#0a1f44',
+                            'navy-light': '#132d5e',
+                            'navy-dark': '#060f24',
+                            accent: '#00c4ba',
+                            'accent-light': '#33d4cc',
+                            gold: '#d4a843',
+                            teal: '#17a2b8',
+                            foreground: '#1a1a2e',
+                            muted: '#f8f9fc',
+                            border: '#e2e8f0',
+                        },
+                        fontFamily: {
+                            sans: ['Inter', 'system-ui'],
+                            heading: ['Montserrat', 'system-ui'],
+                        },
+                    },
+                },
+            };
+        </script>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script src="https://unpkg.com/lucide@latest"></script>
+    </head>
+    <body class="antialiased">
+        <!-- Top Bar -->
+        <div class="bg-navy text-white text-sm py-2 hidden md:block">
+            <div
+                class="max-w-7xl mx-auto px-4 flex justify-between items-center"
+            >
+                <div class="flex items-center gap-6">
+                    <a
+                        href="tel:+8801700000000"
+                        class="flex items-center gap-2 hover:text-accent-light transition-colors"
+                        ><i data-lucide="phone" class="w-3.5 h-3.5"></i>+88
+                        01700 000000</a
+                    ><span class="text-white/50">|</span
+                    ><span class="text-white/70"
+                        >Sat - Thu: 4:00 PM - 9:00 PM</span
+                    >
+                </div>
+                <a
+                    href="appointment.html"
+                    class="flex items-center gap-2 bg-accent hover:bg-accent-light px-4 py-1 rounded-full text-white text-xs font-semibold transition-colors"
+                    ><i data-lucide="calendar" class="w-3.5 h-3.5"></i>Book
+                    Appointment</a
+                >
+            </div>
+        </div>
+        <!-- Navbar -->
+        <nav
+            id="main-navbar"
+            class="sticky top-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md"
+        >
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex items-center justify-between h-16 lg:h-18">
+                    <a
+                        href="index.html"
+                        class="hidden lg:flex items-center shrink-0"
+                        ><img
+                            src="assets/images/logo.png"
+                            alt="Dental Corner"
+                            class="h-20 w-auto"
+                    /></a>
+                    <div
+                        class="flex lg:hidden items-center justify-between w-full"
+                    >
+                        <button
+                            id="mobile-menu-btn"
+                            class="p-2 rounded-lg text-navy hover:bg-navy/5"
+                        >
+                            <i
+                                data-lucide="menu"
+                                id="menu-icon-open"
+                                class="w-6 h-6"
+                            ></i
+                            ><i
+                                data-lucide="x"
+                                id="menu-icon-close"
+                                class="w-6 h-6 hidden"
+                            ></i>
+                        </button>
+                        <a
+                            href="index.html"
+                            class="absolute left-1/2 -translate-x-1/2"
+                            ><img
+                                src="assets/images/title-header.png"
+                                alt="Dental Corner"
+                                class="h-10 sm:h-12 w-auto"
+                        /></a>
+                        <a
+                            href="appointment.html"
+                            class="gradient-navy text-white p-2 rounded-lg"
+                            ><i data-lucide="calendar" class="w-5 h-5"></i
+                        ></a>
+                    </div>
+                    <div class="hidden lg:flex items-center gap-1">
+                        <a
+                            href="index.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Home</a
+                        >
+                        <a
+                            href="services.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-accent bg-accent/5"
+                            >Services</a
+                        >
+                        <a
+                            href="about.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >About</a
+                        >
+                        <a
+                            href="appointment.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Appointment</a
+                        >
+                        <a
+                            href="blog.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Blog</a
+                        >
+                        <a
+                            href="reviews.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Reviews</a
+                        >
+                        <a
+                            href="videos.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Videos</a
+                        >
+                        <a
+                            href="gallery.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Gallery</a
+                        >
+                        <a
+                            href="patient-stories.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Patient Stories</a
+                        >
+                        <a
+                            href="contact.html"
+                            class="px-3 py-2 rounded-lg text-sm font-medium text-navy/70 hover:text-accent hover:bg-accent/5"
+                            >Contact</a
+                        >
+                    </div>
+                    <a
+                        href="appointment.html"
+                        class="hidden lg:flex items-center gap-2 gradient-navy text-white px-5 py-2.5 rounded-xl text-sm font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-navy/20"
+                        ><i data-lucide="calendar" class="w-4 h-4"></i>Get
+                        Appointment</a
+                    >
+                </div>
+            </div>
+            <div
+                id="mobile-menu"
+                class="hidden lg:hidden bg-white border-t border-border animate-fade-up max-h-[calc(100vh-4rem)] overflow-y-auto"
+            >
+                <div class="max-w-7xl mx-auto px-4 py-4 space-y-1">
+                    <a
+                        href="index.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Home</a
+                    >
+                    <a
+                        href="services.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-accent bg-accent/5"
+                        >Services</a
+                    >
+                    <a
+                        href="about.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >About</a
+                    >
+                    <a
+                        href="appointment.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Appointment</a
+                    >
+                    <a
+                        href="blog.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Blog</a
+                    >
+                    <a
+                        href="reviews.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Reviews</a
+                    >
+                    <a
+                        href="videos.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Videos</a
+                    >
+                    <a
+                        href="gallery.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Gallery</a
+                    >
+                    <a
+                        href="patient-stories.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Patient Stories</a
+                    >
+                    <a
+                        href="contact.html"
+                        class="block px-4 py-3 rounded-lg text-sm font-medium text-navy/70"
+                        >Contact</a
+                    >
+                    <a
+                        href="appointment.html"
+                        class="block text-center gradient-navy text-white px-5 py-3 rounded-xl text-sm font-semibold mt-4"
+                        >Book Appointment</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <main class="min-h-screen">
+            <!-- Page Header -->
+            <section
+                class="gradient-navy py-16 md:py-20 relative overflow-hidden"
+            >
+                <div class="absolute inset-0">
+                    <div
+                        class="absolute top-10 left-10 w-40 h-40 rounded-full bg-accent/5 blur-3xl"
+                    ></div>
+                    <div
+                        class="absolute bottom-10 right-10 w-60 h-60 rounded-full bg-teal/5 blur-3xl"
+                    ></div>
+                </div>
+                <div class="max-w-7xl mx-auto px-4 relative z-10 text-center">
+                    <h1
+                        class="text-3xl md:text-5xl font-bold text-white mb-4 font-heading animate-fade-up"
+                    >
+                        Our Services
+                    </h1>
+                    <p
+                        class="text-white/60 text-lg max-w-2xl mx-auto animate-fade-up animate-delay-100"
+                    >
+                        Comprehensive dental care services tailored to your
+                        needs with the latest technology.
+                    </p>
+                    <div
+                        class="flex items-center justify-center gap-2 text-sm mt-6 animate-fade-up animate-delay-200"
+                    >
+                        <a
+                            href="index.html"
+                            class="text-white/50 hover:text-accent transition-colors"
+                            >Home</a
+                        ><i
+                            data-lucide="chevron-right"
+                            class="w-3.5 h-3.5 text-white/30"
+                        ></i
+                        ><span class="text-accent">Services</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Grid -->
+            <section class="py-20">
+                <div class="max-w-7xl mx-auto px-4">
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    >
+                        <!-- Service 1 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center relative"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                                <div
+                                    class="absolute top-4 right-4 bg-accent/20 text-white text-[11px] font-bold px-3 py-1 rounded-full backdrop-blur-sm"
+                                >
+                                    Popular
+                                </div>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Orthodontic Braces
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 25,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Metal braces, ceramic braces, and
+                                    self-ligating braces for teeth alignment and
+                                    bite correction. Customized treatment plans
+                                    for all ages.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 2 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Dental Implants
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 35,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Permanent tooth replacement with titanium
+                                    implants for a natural-looking, lasting
+                                    solution. Single, multiple, or full-mouth
+                                    restoration.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 3 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Root Canal Treatment
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 5,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Pain-free root canal therapy to save
+                                    infected teeth and restore your oral health
+                                    with advanced endodontic techniques.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 4 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Teeth Whitening
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 8,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Professional teeth whitening treatments for
+                                    a brighter, more confident smile. Safe and
+                                    effective results in one visit.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 5 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Dental Crown & Bridge
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 6,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    High-quality dental crowns and bridges to
+                                    restore damaged or missing teeth with
+                                    natural-looking results.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 6 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Tooth Extraction
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 1,500</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Safe and comfortable tooth extractions
+                                    including wisdom teeth removal with minimal
+                                    discomfort and fast recovery.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 7 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Dental Veneers
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 10,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Custom-made porcelain veneers to enhance the
+                                    appearance of your teeth. Perfect for chips,
+                                    gaps, and discoloration.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 8 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Scaling & Polishing
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 2,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Professional teeth cleaning to remove plaque
+                                    and tartar buildup. Essential for
+                                    maintaining healthy gums and preventing
+                                    disease.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                        <!-- Service 9 -->
+                        <div
+                            class="bg-white rounded-2xl overflow-hidden card-hover border border-border group"
+                        >
+                            <div
+                                class="h-52 gradient-navy flex items-center justify-center"
+                            >
+                                <i
+                                    data-lucide="stethoscope"
+                                    class="w-12 h-12 text-white/20"
+                                ></i>
+                            </div>
+                            <div class="p-7">
+                                <div
+                                    class="flex items-start justify-between gap-3 mb-3"
+                                >
+                                    <h3
+                                        class="text-xl font-bold text-navy group-hover:text-accent transition-colors"
+                                    >
+                                        Dental Filling
+                                    </h3>
+                                    <span
+                                        class="shrink-0 bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full"
+                                        >From &#2547; 1,000</span
+                                    >
+                                </div>
+                                <p
+                                    class="text-foreground/60 text-sm leading-relaxed mb-4"
+                                >
+                                    Tooth-colored composite fillings to repair
+                                    cavities and restore tooth structure with a
+                                    natural appearance.
+                                </p>
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-semibold px-4 py-2 rounded-lg hover:bg-accent hover:text-white transition-all"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-4 h-4"
+                                    ></i
+                                    >Book Now</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="py-20 bg-muted">
+                <div class="max-w-7xl mx-auto px-4">
+                    <div
+                        class="gradient-navy rounded-3xl p-10 md:p-16 relative overflow-hidden"
+                    >
+                        <div
+                            class="absolute top-0 right-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl"
+                        ></div>
+                        <div
+                            class="absolute bottom-0 left-0 w-60 h-60 bg-teal/10 rounded-full blur-3xl"
+                        ></div>
+                        <div
+                            class="relative z-10 text-center max-w-2xl mx-auto"
+                        >
+                            <h2
+                                class="text-3xl md:text-4xl font-bold text-white mb-4 font-heading"
+                            >
+                                Need a Dental Service?
+                            </h2>
+                            <p class="text-white/60 text-lg mb-8">
+                                Book an appointment today and our expert team
+                                will take care of you.
+                            </p>
+                            <div class="flex flex-wrap justify-center gap-4">
+                                <a
+                                    href="appointment.html"
+                                    class="inline-flex items-center gap-2 bg-accent hover:bg-accent-light text-white px-8 py-3.5 rounded-xl font-semibold transition-colors shadow-lg shadow-accent/30"
+                                    ><i
+                                        data-lucide="calendar"
+                                        class="w-5 h-5"
+                                    ></i
+                                    >Book Appointment</a
+                                ><a
+                                    href="tel:+8801700000000"
+                                    class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-3.5 rounded-xl font-semibold transition-colors border border-white/10"
+                                    ><i data-lucide="phone" class="w-5 h-5"></i
+                                    >+88 01700 000000</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="gradient-navy text-white">
+            <div class="max-w-7xl mx-auto px-4 pt-16 pb-8">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"
+                >
+                    <div>
+                        <a href="index.html" class="inline-block mb-4"
+                            ><img
+                                src="assets/images/title-footer.png"
+                                alt="Dental Corner"
+                                class="h-12 md:h-14 w-auto"
+                        /></a>
+                        <p class="text-white/60 text-sm leading-relaxed mb-4">
+                            Providing professional healthcare services with
+                            compassion and expertise.
+                        </p>
+                        <div class="flex gap-3">
+                            <a
+                                href="#"
+                                class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-accent transition-colors"
+                                ><i
+                                    data-lucide="facebook"
+                                    class="w-4 h-4"
+                                ></i></a
+                            ><a
+                                href="#"
+                                class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-accent transition-colors"
+                                ><i
+                                    data-lucide="instagram"
+                                    class="w-4 h-4"
+                                ></i></a
+                            ><a
+                                href="#"
+                                class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-accent transition-colors"
+                                ><i data-lucide="youtube" class="w-4 h-4"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4 font-heading">
+                            Quick Links<span
+                                class="block w-10 h-0.5 bg-accent mt-2"
+                            ></span>
+                        </h4>
+                        <ul class="space-y-2.5">
+                            <li>
+                                <a
+                                    href="services.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="about.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="appointment.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >Appointment</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="blog.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="reviews.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >Reviews</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="contact.html"
+                                    class="text-white/60 hover:text-accent text-sm transition-colors flex items-center gap-2"
+                                    ><span
+                                        class="w-1.5 h-1.5 rounded-full bg-accent/50"
+                                    ></span
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4 font-heading">
+                            Contact Info<span
+                                class="block w-10 h-0.5 bg-accent mt-2"
+                            ></span>
+                        </h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3 text-sm">
+                                <i
+                                    data-lucide="phone"
+                                    class="w-4 h-4 text-accent mt-0.5 shrink-0"
+                                ></i
+                                ><a
+                                    href="tel:+8801700000000"
+                                    class="text-white/80 hover:text-accent"
+                                    >+88 01700 000000</a
+                                >
+                            </li>
+                            <li class="flex items-start gap-3 text-sm">
+                                <i
+                                    data-lucide="mail"
+                                    class="w-4 h-4 text-accent mt-0.5 shrink-0"
+                                ></i
+                                ><a
+                                    href="mailto:info@example.com"
+                                    class="text-white/80 hover:text-accent"
+                                    >info@example.com</a
+                                >
+                            </li>
+                            <li class="flex items-start gap-3 text-sm">
+                                <i
+                                    data-lucide="map-pin"
+                                    class="w-4 h-4 text-accent mt-0.5 shrink-0"
+                                ></i
+                                ><span class="text-white/80"
+                                    >Chittagong, Bangladesh</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4 font-heading">
+                            Working Hours<span
+                                class="block w-10 h-0.5 bg-accent mt-2"
+                            ></span>
+                        </h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-sm">
+                                <i
+                                    data-lucide="clock"
+                                    class="w-3.5 h-3.5 text-accent shrink-0"
+                                ></i>
+                                <div>
+                                    <p class="text-white/80">
+                                        Saturday - Thursday
+                                    </p>
+                                    <p class="text-white/50 text-xs">
+                                        4:00 PM - 9:00 PM
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-3 text-sm">
+                                <i
+                                    data-lucide="clock"
+                                    class="w-3.5 h-3.5 text-accent shrink-0"
+                                ></i>
+                                <div>
+                                    <p class="text-white/80">Friday</p>
+                                    <p class="text-white/50 text-xs">Closed</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a
+                            href="appointment.html"
+                            class="inline-block mt-5 bg-accent hover:bg-accent-light text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
+                            >Book Appointment</a
+                        >
+                    </div>
+                </div>
+                <div
+                    class="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4"
+                >
+                    <div class="text-center md:text-left">
+                        <p class="text-white/40 text-sm">
+                            &copy; 2025 Dental Corner. All rights reserved.
+                        </p>
+                        <p class="text-white/30 text-xs mt-1">
+                            Developed by
+                            <a
+                                href="https://orbeetal.com"
+                                target="_blank"
+                                class="text-accent hover:text-accent-light font-medium"
+                                >Orbeetal</a
+                            >
+                        </p>
+                    </div>
+                    <button
+                        id="scroll-top-btn"
+                        class="w-10 h-10 rounded-xl bg-white/10 hover:bg-accent flex items-center justify-center transition-colors"
+                    >
+                        <i data-lucide="arrow-up" class="w-5 h-5"></i>
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <!-- WhatsApp -->
+        <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+            <div
+                id="wa-tooltip"
+                class="hidden bg-white rounded-2xl shadow-2xl border border-border p-4 w-72 animate-fade-up"
+            >
+                <div class="flex items-center justify-between mb-3">
+                    <div class="flex items-center gap-2">
+                        <div
+                            class="w-10 h-10 rounded-full bg-[#25D366] flex items-center justify-center"
+                        >
+                            <svg
+                                viewBox="0 0 24 24"
+                                width="20"
+                                height="20"
+                                fill="white"
+                            >
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                                />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-navy">
+                                Chat with us
+                            </p>
+                            <p class="text-[11px] text-foreground/50">
+                                Typically replies instantly
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                        id="wa-close"
+                        class="text-foreground/30 hover:text-foreground/60"
+                    >
+                        <i data-lucide="x" class="w-4 h-4"></i>
+                    </button>
+                </div>
+                <a
+                    href="https://wa.me/8801700000000"
+                    target="_blank"
+                    class="w-full bg-[#25D366] hover:bg-[#20BD5A] text-white text-sm font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors"
+                    ><i data-lucide="message-circle" class="w-4 h-4"></i>Start
+                    Chat</a
+                >
+            </div>
+            <button
+                id="wa-btn"
+                class="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20BD5A] text-white flex items-center justify-center shadow-lg shadow-[#25D366]/30 transition-all hover:scale-110 active:scale-95"
+            >
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                    />
+                </svg>
+            </button>
+            <span
+                id="wa-pulse"
+                class="absolute bottom-0 right-0 w-14 h-14 rounded-full bg-[#25D366] animate-ping opacity-20 pointer-events-none"
+            ></span>
+        </div>
+        <script src="assets/js/main.js"></script>
+        <script>
+            lucide.createIcons();
+        </script>
+    </body>
+</html>
